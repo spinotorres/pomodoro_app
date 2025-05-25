@@ -1,0 +1,14 @@
+# Ignorar dependências e arquivos grandes
+/node_modules
+/dist
+*.app
+*.exe
+*.dmg
+*.zip
+*.tar.gz
+*.asarnode_modules/
+dist/
+*.app
+*.exe
+*.dmg
+*.zip

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Fire Pomodoro</title>
+  </head>
+
+  <header>
+    <div id="info-text" style="display: none;"></div>
+    <button onclick="appInfo()" class="info-button">
+      Info
+    </button>
+  </header>
+  <body>
+    <div class="background-image">
+      <img src="pixel-bonfire.gif">
+    </div>
+
+    <div class="timer-container">
+      <p id="timer-display">25:00</p>
+    </div>
+
+    <div class="buttons-container">
+      <button onclick="setTimer()" class="button">
+        Reset
+      </button>
+      <button onclick="startTimer()" class="button">
+        Start
+      </button>
+      <button onclick="stopTimer()" class="button">
+        Stop
+      </button>
+    </div>
+  </body>
+  <script src="renderer.js"></script>
+</html>
