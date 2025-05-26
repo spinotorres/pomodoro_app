@@ -20,6 +20,3 @@ app.whenReady().then(() => {
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') app.quit()
 })
-
-
-/* comando para recompilar: npx electron-packager . PomodoroApp --platform=darwin --arch=x64 --icon=icon.icns --overwrite */
