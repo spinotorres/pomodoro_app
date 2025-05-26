@@ -1,5 +1,3 @@
-/* O código deve vir aqui */
-
 let timerDuration = 25 * 60;
 let currentTime = timerDuration;
 let timerInterval = null;
